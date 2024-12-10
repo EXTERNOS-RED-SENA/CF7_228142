@@ -26,7 +26,7 @@
     
     .row
       .col-lg(data-aos="fade-right")
-        p Los sistemas y componentes del #[em hardware] incluyen tanto los dispositivos internos como externos que componen un equipo de cómputo. Entre los principales componentes se encuentran la mainboard o placa base, el procesador, la memoria RAM, la fuente de poder, los discos de almacenamiento y las tarjetas de expansión. Estos elementos trabajan de manera integrada, y cada uno cumple una función específica en el procesamiento de datos.
+        p Los sistemas y componentes del #[em hardware] incluyen tanto los dispositivos internos como externos que componen un equipo de cómputo. Entre los principales componentes se encuentran la #[em mainboard] o placa base, el procesador, la memoria RAM, la fuente de poder, los discos de almacenamiento y las tarjetas de expansión. Estos elementos trabajan de manera integrada, y cada uno cumple una función específica en el procesamiento de datos.
         .row.mt-4
           .col-auto.d-none.d-lg-block.pe-lg-0
             figure
@@ -53,7 +53,7 @@
         .col-lg-8(data-aos="zoom-in")
           SlyderF(columnas="col-lg-6 col-xl-6")
             .text-center.tarjeta.color-acento-botones.p-4(style="background-color:#EFE8F7;")
-              h5 Placa base (mainboard)
+              h5 Placa base (#[em mainboard])
               p.mb-0 La placa base es el componente central donde se conectan y comunican todos los demás elementos. En el mantenimiento preventivo, se verifica que no haya acumulación de polvo en sus conexiones, que las ranuras de expansión (PCIe y RAM) estén libres de obstrucciones, y que no existan partes sueltas o con signos de corrosión en los circuitos o conectores.
             .text-center.tarjeta.color-acento-botones.p-4(style="background-color:#EFE8F7;")
               h5 Procesador (CPU)
@@ -85,7 +85,8 @@
         figure
           img(src="@/assets/curso/tema1/9.svg")
       .col-lg(style="place-self:center;" data-aos="fade-left")
-        p.mb-0 Los factores de forma son las dimensiones y diseños físicos de los componentes de #[em hardware] que determinan cómo se ensamblan y configuran dentro de un equipo. Existen varios tipos, como ATX, microATX y mini-ITX, que influyen en el espacio interno de los gabinetes y en la disposición de los elementos. La compatibilidad entre los factores de forma y los componentes garantiza un ensamblaje seguro y la eficiencia en el flujo de aire, lo cual es fundamental en el mantenimiento preventivo.
+        p Durante el mantenimiento preventivo, revisar el factor de forma de la #[em mainboard], el gabinete y otros elementos ayuda a confirmar que cada pieza encaja correctamente y que hay suficiente espacio para el enfriamiento. La compatibilidad también abarca la correcta elección de puertos y ranuras de expansión, como PCIe o SATA, que deben coincidir con los dispositivos conectados. Un análisis de compatibilidad previo a cualquier reemplazo asegura que no se presenten problemas de funcionamiento o interferencias en el sistema.
+        p.mb-0 A continuación, se encuentra la explicación de los factores mencionados:
     
     .col-xl-10.m-auto.mt-5
       .row
@@ -94,13 +95,13 @@
             .row.col-xl-11.m-auto(titulo="Factor de forma ATX")
               p Este es uno de los factores de forma más comunes para PCs de escritorio. Su tamaño estándar permite una mayor cantidad de ranuras de expansión y opciones de almacenamiento. En el mantenimiento preventivo, es necesario verificar que el gabinete sea lo suficientemente grande para acomodar la placa base ATX, asegurándose de que no haya interferencias con los cables o componentes internos, lo que podría afectar la circulación de aire.
             .row.col-xl-11.m-auto(titulo="Factor de forma microATX")
-              p Factor de forma microATX: Este factor de forma es más pequeño que el ATX y se usa en equipos de gama media o de uso doméstico. Durante el mantenimiento, se verifica que la mainboard microATX encaje perfectamente en el gabinete y que haya suficiente espacio para la ventilación de los componentes. La compatibilidad con la fuente de poder y las tarjetas de expansión debe ser comprobada, ya que algunas tarjetas gráficas o tarjetas de expansión de gran tamaño pueden no ser compatibles.
+              p Este factor de forma es más pequeño que el ATX y se usa en equipos de gama media o de uso doméstico. Durante el mantenimiento, se verifica que la #[em mainboard] microATX encaje perfectamente en el gabinete y que haya suficiente espacio para la ventilación de los componentes. La compatibilidad con la fuente de poder y las tarjetas de expansión debe ser comprobada, ya que algunas tarjetas gráficas o tarjetas de expansión de gran tamaño pueden no ser compatibles.
             .row.col-xl-11.m-auto(titulo="Factor de forma mini-IT")
-              p Factor de forma mini-ITX: Ideal para equipos compactos o de uso en espacios reducidos, el mini-ITX requiere de una gestión cuidadosa del espacio interno. En el mantenimiento preventivo, se debe verificar que los componentes, como la placa base y el sistema de refrigeración, se ajusten correctamente al gabinete sin obstruir la circulación de aire, lo cual es fundamental para evitar sobrecalentamientos.
+              p Ideal para equipos compactos o de uso en espacios reducidos, el mini-ITX requiere de una gestión cuidadosa del espacio interno. En el mantenimiento preventivo, se debe verificar que los componentes, como la placa base y el sistema de refrigeración, se ajusten correctamente al gabinete sin obstruir la circulación de aire, lo cual es fundamental para evitar sobrecalentamientos.
             .row.col-xl-11.m-auto(titulo="Compatibilidad de puertos y ranuras de expansión")
-              p Compatibilidad de puertos y ranuras de expansión: En un equipo con una mainboard ATX, es importante verificar que las ranuras de expansión como PCIe sean compatibles con las tarjetas adicionales que se vayan a instalar, como tarjetas gráficas o de sonido. También es importante asegurar que los puertos SATA estén en cantidad y disposición adecuadas para conectar discos duros o unidades SSD. Un análisis preventivo de compatibilidad asegura un ensamblaje adecuado y la máxima eficiencia del sistema.
+              p En un equipo con una #[em mainboard] ATX, es importante verificar que las ranuras de expansión como PCIe sean compatibles con las tarjetas adicionales que se vayan a instalar, como tarjetas gráficas o de sonido. También es importante asegurar que los puertos SATA estén en cantidad y disposición adecuadas para conectar discos duros o unidades SSD. Un análisis preventivo de compatibilidad asegura un ensamblaje adecuado y la máxima eficiencia del sistema.
             .row.col-xl-11.m-auto(titulo="Revisión de cables internos")
-              p Durante el mantenimiento, se revisan los cables internos y las conexiones de la mainboard para asegurarse de que estén correctamente conectados y no obstruyan el flujo de aire. Esto incluye cables de alimentación, cables SATA para almacenamiento y cables de datos. Verificar que todo esté bien organizado y que no interfiera con otros componentes es necesario para el rendimiento del equipo.
+              p Durante el mantenimiento, se revisan los cables internos y las conexiones de la #[em mainboard] para asegurarse de que estén correctamente conectados y no obstruyan el flujo de aire. Esto incluye cables de alimentación, cables SATA para almacenamiento y cables de datos. Verificar que todo esté bien organizado y que no interfiera con otros componentes es necesario para el rendimiento del equipo.
         .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
           figure
             img(src="@/assets/curso/tema1/10.png")
@@ -154,7 +155,7 @@
         .tarjeta.color-acento-botones.p-4(titulo="Sistema de <br> refrigeración líquida" style="background-color:#EFE8F7;")
           .row
             .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-              p  En equipos con sistemas de refrigeración líquida, se realiza una revisión de las conexiones de las mangueras y posibles fugas. Cualquier fuga puede provocar daños en otros componentes, como la mainboard o las tarjetas de expansión. Además, se verifica el nivel del líquido refrigerante y se realiza un mantenimiento preventivo para evitar que el sistema pierda eficiencia.
+              p  En equipos con sistemas de refrigeración líquida, se realiza una revisión de las conexiones de las mangueras y posibles fugas. Cualquier fuga puede provocar daños en otros componentes, como la #[em mainboard] o las tarjetas de expansión. Además, se verifica el nivel del líquido refrigerante y se realiza un mantenimiento preventivo para evitar que el sistema pierda eficiencia.
             .m-auto.col-lg-4.col-12.col-md-7(style="place-self:center;")
               figure
                 img(src="@/assets/curso/tema1/16.svg")

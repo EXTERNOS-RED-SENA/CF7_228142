@@ -29,23 +29,23 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 1
-            span #[strong Apagar el equipo y desconectar todos los cables:] Antes de realizar cualquier tipo de mantenimiento, debe apagar el equipo y desconectar todos los cables (fuente de poder, periféricos, etc.) para evitar daños eléctricos o cortocircuitos.
+            span #[strong Apagar el equipo y desconectar todos los cables:] antes de realizar cualquier tipo de mantenimiento, debe apagar el equipo y desconectar todos los cables (fuente de poder, periféricos, etc.) para evitar daños eléctricos o cortocircuitos.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 2
-            span #[strong Abrir el gabinete:] Desmontar el gabinete del equipo con cuidado, verificando que no haya piezas sueltas. Este paso es básico para acceder a los componentes internos.
+            span #[strong Abrir el gabinete:] desmontar el gabinete del equipo con cuidado, verificando que no haya piezas sueltas. Este paso es básico para acceder a los componentes internos.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 3
-            span #[strong Limpieza externa del equipo:] Usar un paño suave y ligeramente húmedo para limpiar el polvo y suciedad de la carcasa del equipo, la pantalla y los periféricos. Evitar el uso de productos químicos agresivos que puedan dañar la superficie.
+            span #[strong Limpieza externa del equipo:] usar un paño suave y ligeramente húmedo para limpiar el polvo y suciedad de la carcasa del equipo, la pantalla y los periféricos. Evitar el uso de productos químicos agresivos que puedan dañar la superficie.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 4
-            span #[strong Uso de aire comprimido para limpiar el polvo interno:] Utilizar un bote de aire comprimido para eliminar el polvo acumulado dentro del gabinete, especialmente en la mainboard, tarjetas de expansión y en las áreas cercanas a los ventiladores. Es recomendable hacerlo a una distancia segura para evitar dañar los componentes.
+            span #[strong Uso de aire comprimido para limpiar el polvo interno:] utilizar un bote de aire comprimido para eliminar el polvo acumulado dentro del gabinete, especialmente en la #[em mainboard], tarjetas de expansión y en las áreas cercanas a los ventiladores. Es recomendable hacerlo a una distancia segura para evitar dañar los componentes.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 5
-            span #[strong Limpieza de los ventiladores:] El polvo en los ventiladores puede afectar su funcionamiento. Usar aire comprimido para deshacerse del polvo y asegurarse de que las aspas giren libremente. Si es necesario, se puede retirar el ventilador para una limpieza más exhaustiva.
+            span #[strong Limpieza de los ventiladores:] el polvo en los ventiladores puede afectar su funcionamiento. Usar aire comprimido para deshacerse del polvo y asegurarse de que las aspas giren libremente. Si es necesario, se puede retirar el ventilador para una limpieza más exhaustiva.
     
     .row.mt-lg-5
       .col-lg(data-aos="zoom-in")
@@ -53,23 +53,23 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 6
-            span #[strong Verificación y limpieza de puertos y ranuras de expansión:] Limpiar los puertos USB, HDMI, y ranuras de expansión con un cepillo de cerdas suaves o aire comprimido para garantizar que no haya polvo que impida una buena conexión.
+            span #[strong Verificación y limpieza de puertos y ranuras de expansión:] limpiar los puertos USB, HDMI, y ranuras de expansión con un cepillo de cerdas suaves o aire comprimido para garantizar que no haya polvo que impida una buena conexión.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 7
-            span #[strong Revisión de la fuente de poder:] Inspeccionar la fuente de poder y limpiar los filtros de polvo si los tiene. Es importante asegurarse de que el ventilador de la fuente esté funcionando correctamente y libre de obstrucciones.
+            span #[strong Revisión de la fuente de poder:] inspeccionar la fuente de poder y limpiar los filtros de polvo si los tiene. Es importante asegurarse de que el ventilador de la fuente esté funcionando correctamente y libre de obstrucciones.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 8
-            span #[strong Reemplazo de pasta térmica (si es necesario):] Si se nota sobrecalentamiento en el procesador o la temperatura es elevada, limpiar la pasta térmica vieja y aplicar una nueva capa para mejorar la transferencia de calor entre el procesador y el disipador.
+            span #[strong Reemplazo de pasta térmica (si es necesario):] si se nota sobrecalentamiento en el procesador o la temperatura es elevada, limpiar la pasta térmica vieja y aplicar una nueva capa para mejorar la transferencia de calor entre el procesador y el disipador.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 9
-            span #[strong Revisión de cables internos:] Verificar que los cables internos estén organizados y no bloqueen el flujo de aire. Si es necesario, realizar una limpieza suave y asegurarse de que las conexiones estén firmemente insertadas.
+            span #[strong Revisión de cables internos:] verificar que los cables internos estén organizados y no bloqueen el flujo de aire. Si es necesario, realizar una limpieza suave y asegurarse de que las conexiones estén firmemente insertadas.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.fw-bold 10
-            span #[strong Cierre del gabinete y encendido del equipo:] Una vez terminada la limpieza, volver a montar el gabinete, conectar los cables y encender el equipo para verificar que todo funcione correctamente.
+            span #[strong Cierre del gabinete y encendido del equipo:] una vez terminada la limpieza, volver a montar el gabinete, conectar los cables y encender el equipo para verificar que todo funcione correctamente.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/3.png")
@@ -78,6 +78,8 @@
 
     .titulo-segundo(data-aos="flip-up")
       h2#t_2_2 2.2	Lubricación de partes móviles
+    
+    p(data-aos="fade-right") La lubricación de partes móviles es un procedimiento preventivo para mantener el funcionamiento adecuado de los equipos. Las partes que suelen necesitar lubricación son los ventiladores, discos duros, impresoras y otros mecanismos que implican movimiento.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       h5 Tabla 1.
@@ -202,7 +204,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#73C8E2;")
               span.fw-bold.text-white 8
-            span #[strong Verificación de la fuente de poder:] Usar un tester de fuente de poder para comprobar que está suministrando los voltajes correctos a los componentes del sistema. Si se detectan fallas, la fuente de poder debe ser reemplazada.
+            span #[strong Verificación de la fuente de poder:] Usar un #[em tester] de fuente de poder para comprobar que está suministrando los voltajes correctos a los componentes del sistema. Si se detectan fallas, la fuente de poder debe ser reemplazada.
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#73C8E2;")
               span.fw-bold.text-white 9

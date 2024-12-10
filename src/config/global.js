@@ -79,7 +79,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Procedimientos de mantenimiento preventivo',
+        titulo: 'Herramientas y equipos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -308,7 +308,7 @@ export default {
         'Tarjeta adicional que se conecta a la <em>mainboard</em> para aumentar o mejorar las capacidades del equipo.',
     },
     {
-      termino: 'Tester',
+      termino: '<em>Tester</em>',
       significado:
         'Instrumento de medición utilizado para verificar el estado de funcionamiento de componentes eléctricos y electrónicos',
     },
@@ -341,7 +341,7 @@ export default {
     },
     {
       referencia:
-        'Vargas Tovar, A. M. (2014). <em>Gestión de mantenimiento en instalaciones de equipos: Mantenimiento del hardware</em> [Trabajo de grado de pregrado, Universidad Cooperativa de Colombia]. Repositorio UCC.',
+        'Vargas Tovar, A. M. (2014). <em>Prestar los servicios de apoyo a la gestión de mantenimiento de impresoras, soporte a las instalaciones de equipos de oficina así como el mantenimiento del hardware</em> [Trabajo de grado de pregrado, Universidad Cooperativa de Colombia]. Repositorio UCC.',
       link: 'https://hdl.handle.net/20.500.12494/43966',
     },
     {

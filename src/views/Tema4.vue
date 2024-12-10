@@ -57,6 +57,8 @@
         figure
           img(src="@/assets/curso/tema4/4.png")
     
+    p.mt-5(data-aos="fade-right") A continuación, se detallan los datos de un formulario de Hoja de vida de un equipo:
+
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-down")
       h5 Tabla 3.
       span Formulario Hoja de vida de un equipo
@@ -69,50 +71,50 @@
             th
         tbody.bg-white
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Número de serie: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Número de serie: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Modelo: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Modelo: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Fabricante: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Fabricante: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Fecha de adquisición: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Fecha de adquisición: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Garantía (fecha de vencimiento): 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Garantía (fecha de vencimiento): 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Ubicación: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Ubicación: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Componentes
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Componentes
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Procesador: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Procesador: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Memoria RAM: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Memoria RAM: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Almacenamiento: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Almacenamiento: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Tarjeta gráfica: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Tarjeta gráfica: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Fuente de poder: 
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Fuente de poder: 
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Historial de mantenimiento
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Historial de mantenimiento
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Fecha
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Fecha
+            td(style="border-left:0;")
           tr
-            td.fw-bold(style="background-color:#EBF6EA;") Comentarios adicionales
-            td 
+            td.fw-bold(style="background-color:#EBF6EA;border-right:0px;") Comentarios adicionales
+            td(style="border-left:0;")
 
     Separador
 
@@ -167,10 +169,10 @@
                   h5.mb-4 Bitácora de Mantenimiento - Ejemplo 1
                   p.mb-0 #[strong Fecha:] 05/11/2024
                   p.mb-0 #[strong Equipo:] PC de oficina
-                  p.mb-0 #[strong Tipo de Mantenimiento:] Preventivo
-                  p.mb-0 #[strong Acciones realizadas:] Limpieza de componentes internos, actualización de sistema operativo, revisión de conexiones.
-                  p.mb-0 #[strong Observaciones:] Se detectó un ventilador con exceso de ruido, reemplazo programado para el próximo mantenimiento.
-                  p.mb-0 #[strong Técnico responsable:] María López
+                  p.mb-0 #[strong Tipo de Mantenimiento:] preventivo
+                  p.mb-0 #[strong Acciones realizadas:] limpieza de componentes internos, actualización de sistema operativo, revisión de conexiones.
+                  p.mb-0 #[strong Observaciones:] se detectó un ventilador con exceso de ruido, reemplazo programado para el próximo mantenimiento.
+                  p.mb-0 #[strong Técnico responsable:] maría lópez
                 .col-auto.d-none.d-md-block
                   figure
                     img(src='@/assets/curso/tema4/8.svg')
@@ -179,10 +181,10 @@
                   h5.mb-4 Bitácora de Mantenimiento - Ejemplo 2
                   p.mb-0 #[strong Fecha:] 10/11/2024
                   p.mb-0 #[strong Equipo:] Laptop HP
-                  p.mb-0 #[strong Tipo de Mantenimiento:] Correctivo
-                  p.mb-0 #[strong Acciones realizadas:] Sustitución de disco duro, reinstalación de sistema operativo y recuperación de datos.
-                  p.mb-0 #[strong Observaciones:] Disco duro anterior presentaba fallos mecánicos; se recomienda implementar copias de respaldo periódicas.
-                  p.mb-0 #[strong Técnico responsable:] Pedro Gómez
+                  p.mb-0 #[strong Tipo de Mantenimiento:] correctivo
+                  p.mb-0 #[strong Acciones realizadas:] sustitución de disco duro, reinstalación de sistema operativo y recuperación de datos.
+                  p.mb-0 #[strong Observaciones:] disco duro anterior presentaba fallos mecánicos; se recomienda implementar copias de respaldo periódicas.
+                  p.mb-0 #[strong Técnico responsable:] pedro gómez
                 .col-auto.d-none.d-md-block
                   figure
                     img(src='@/assets/curso/tema4/8.svg')
@@ -190,11 +192,11 @@
                 .col
                   h5.mb-4 Bitácora de Mantenimiento - Ejemplo 3
                   p.mb-0 #[strong Fecha:] 15/11/2024
-                  p.mb-0 #[strong Equipo:] Servidor NAS
-                  p.mb-0 #[strong Tipo de Mantenimiento:] Preventivo
-                  p.mb-0 #[strong Acciones realizadas:] Revisión de discos RAID, actualización de #[em firmware], verificación de estado de fuente de poder.
-                  p.mb-0 #[strong Observaciones:] Sistema operativo actualizado con éxito, se recomienda revisar los discos de almacenamiento cada seis meses.
-                  p.mb-0 #[strong Técnico responsable:] Laura Martínez
+                  p.mb-0 #[strong Equipo:] servidor NAS
+                  p.mb-0 #[strong Tipo de Mantenimiento:] preventivo
+                  p.mb-0 #[strong Acciones realizadas:] revisión de discos RAID, actualización de #[em firmware], verificación de estado de fuente de poder.
+                  p.mb-0 #[strong Observaciones:] sistema operativo actualizado con éxito, se recomienda revisar los discos de almacenamiento cada seis meses.
+                  p.mb-0 #[strong Técnico responsable:] laura martínez
                 .col-auto.d-none.d-md-block
                   figure
                     img(src='@/assets/curso/tema4/8.svg')

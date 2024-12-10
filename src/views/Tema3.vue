@@ -9,7 +9,7 @@
     
     .row
       .col-md(style="place-self:center;" data-aos="fade-right")
-        p.mb-0 En el mantenimiento preventivo de equipos de cómputo, se requiere utilizar diversas herramientas y equipos que aseguren la óptima operatividad del #[em hardware] y eviten fallas en los componentes. Em este proceso se requiere utilizar los instrumentos de medición adecuados para diagnósticos precisos, así como herramientas especializadas que facilitan un trabajo eficiente. Es importante recordar también los elementos de protección personal, los cuales garantizan la seguridad del técnico y del equipo.
+        p.mb-0 En el mantenimiento preventivo de equipos de cómputo, se requiere utilizar diversas herramientas y equipos que aseguren la óptima operatividad del #[em hardware] y eviten fallas en los componentes en este proceso se requiere utilizar los instrumentos de medición adecuados para diagnósticos precisos, así como herramientas especializadas que facilitan un trabajo eficiente. Es importante recordar también los elementos de protección personal, los cuales garantizan la seguridad del técnico y del equipo.
       .col-md-auto.d-none.d-md-block(style="place-self:center;" data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/1.svg")
@@ -47,7 +47,7 @@
             td.p-3 Permite verificar el funcionamiento de fuentes de poder y otros componentes eléctricos en tiempo real.
             td.p-3 Dispone de pantalla digital o analógica, selector de funciones, precisión en las mediciones de hasta dos decimales.
           tr
-            td.p-3.fw-bold(style="background-color:#EBF6EA;") Tester de fuente de poder
+            td.p-3.fw-bold(style="background-color:#EBF6EA;") #[em Tester] de fuente de poder
             td.p-3 Evalúa la salida de voltaje y la estabilidad de las fuentes de alimentación.
             td.p-3 Diagnostica rápidamente fallos en fuentes de poder, reduciendo el riesgo de daños en otros componentes.
             td.p-3 Tiene conectores específicos para ATX, CPU, SATA, PCI y Molex. Emite alarmas en caso de voltajes incorrectos.
@@ -159,7 +159,7 @@
                     img(src='@/assets/curso/tema3/11.svg')
                 .col-lg-7(style="place-self:center;")
                   p.fw-bold Delantal antiestático
-                  p.mt-4 Reduce el riesgo de transferencia de electricidad estática desde la ropa del técnico hacia los componentes sensibles. 
+                  p.mt-4 Reduce el riesgo de transferencia de electricidad estática desde la ropa del técnico hacia los componentes sensibles. Generalmente está hecho de materiales antiestáticos.
               .row.p-4.ps-5.pe-5
                 .col-lg-5.m-auto.col-md-6.col-10(style="place-self:center;")
                   figure.pe-lg-4
